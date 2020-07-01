@@ -37,7 +37,7 @@ app.get("/", function (req, res) {
 });
 
 app.get("/:character", function (req, res) {
-	// req.params = { character: "Value from the user" };
+	req.params = { character: "Value FROM USER" };
 	var chosen = req.params.character;
 
 	// What does this log?
