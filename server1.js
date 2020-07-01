@@ -25,7 +25,12 @@ var darthmaul = {
 // Enter any values you like for the parameters following the same format as the Yoda and Darth Maul character
 //
 
-// YOUR CODE GOES HERE
+var obiWanKenobi = {
+	name: "obiWanKenobi",
+	role: "Jedi Master",
+	age: 200,
+	forcePoints: 1200,
+};
 
 //
 
