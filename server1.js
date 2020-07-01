@@ -28,8 +28,8 @@ var darthmaul = {
 var obiWanKenobi = {
 	name: "obiWanKenobi",
 	role: "Jedi Master",
-	age: 200,
-	forcePoints: 1200,
+	age: 150,
+	forcePoints: 2500,
 };
 
 //
@@ -53,8 +53,9 @@ app.get("/darthmaul", function (req, res) {
 //
 
 // YOUR CODE GOES HERE
-//
-//
+app.get("/", function (req, res) {
+	res.json(obiWanKenobi);
+});
 
 // Listener
 // ===========================================================
