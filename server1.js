@@ -53,7 +53,7 @@ app.get("/darthmaul", function (req, res) {
 //
 
 // YOUR CODE GOES HERE
-app.get("/", function (req, res) {
+app.get("/obiWanKenobi", function (req, res) {
 	res.json(obiWanKenobi);
 });
 
